@@ -1,0 +1,14 @@
+{
+    "apps": [
+        {
+            "name"      : "user",
+            "script"    : "index.js",
+            "watch"     : "index.js"
+        },
+        {
+            "name"      : "user-service",
+            "script"    : "services/user-service.js",
+            "watch"     : "services/user-service.js"
+        }
+    ]
+}

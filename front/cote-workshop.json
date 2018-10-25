@@ -1,0 +1,19 @@
+{
+    "apps": [
+        {
+            "name"      : "admin",
+            "script"    : "admin/server.js",
+            "watch"     : "admin/server.js"
+        },
+        {
+            "name"      : "end-user",
+            "script"    : "end-user/server.js",
+            "watch"     : "end-user/server.js"
+        },
+        {
+            "name"      : "monitor",
+            "script"    : "monitor.js",
+            "watch"     : "monitor.js"
+        }
+    ]
+}

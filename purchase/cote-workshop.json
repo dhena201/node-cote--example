@@ -1,0 +1,14 @@
+{
+    "apps": [
+        {
+            "name"      : "purcahse",
+            "script"    : "index.js",
+            "watch"     : "index.js"
+        },
+        {
+            "name"      : "purchase-service",
+            "script"    : "services/purchase-service.js",
+            "watch"     : "services/purchase-service.js"
+        }
+    ]
+}

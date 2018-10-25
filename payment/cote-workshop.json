@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name"      : "payment-service",
+            "script"    : "services/payment-service.js",
+            "watch"     : "services/payment-service.js"
+        }
+    ]
+}

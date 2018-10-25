@@ -1,0 +1,54 @@
+{
+    "apps": [
+        {
+            "name"      : "admin",
+            "script"    : "front/admin/server.js",
+            "watch"     : "front/admin/server.js"
+        },
+        {
+            "name"      : "end-user",
+            "script"    : "front/end-user/server.js",
+            "watch"     : "front/end-user/server.js"
+        },
+        {
+            "name"      : "monitor",
+            "script"    : "front/monitor.js",
+            "watch"     : "front/monitor.js"
+        },
+        {
+            "name"      : "payment-service",
+            "script"    : "payment/services/payment-service.js",
+            "watch"     : "payment/services/payment-service.js"
+        },
+        {
+            "name"      : "product",
+            "script"    : "product/index.js",
+            "watch"     : "product/index.js"
+        },
+        {
+            "name"      : "product-service",
+            "script"    : "product/services/product-service.js",
+            "watch"     : "product/services/product-service.js"
+        },
+        {
+            "name"      : "purchase",
+            "script"    : "purchase/index.js",
+            "watch"     : "purchase/index.js"
+        },
+        {
+            "name"      : "purchase-service",
+            "script"    : "purchase/services/purchase-service.js",
+            "watch"     : "purchase/services/purchase-service.js"
+        },
+        {
+            "name"      : "user",
+            "script"    : "user/index.js",
+            "watch"     : "user/index.js"
+        },
+        {
+            "name"      : "user-service",
+            "script"    : "user/services/user-service.js",
+            "watch"     : "user/services/user-service.js"
+        }
+    ]
+}
